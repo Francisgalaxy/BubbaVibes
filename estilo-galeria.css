@@ -1,0 +1,35 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Century Gothic", sans-serif;
+  color: #e8d9ff; /* Color del texto igual al segundo bloque */
+  background-color: #9772cf; /* Fondo morado como las columnas del segundo bloque */
+  padding: 2px; /* Añadido para coincidir */
+}
+
+div.ficha {
+  width: 200px;
+  height: 120px;
+  float: left;
+  margin: 15px;
+  background-color: #a973fa; /* Color del encabezado del segundo bloque */
+  border: 3px solid lightblue; /* Corregido el formato del borde */
+}
+
+ul#menu {
+  margin: 1px;
+  padding: 1px;
+  list-style: none; /* Corregido (faltaba "list-style") */
+}
+
+#menu li {
+  background-color: cyan;
+  border: 3px solid lightblue; /* Corregido formato y color */
+  margin: 1px;
+  float: left;
+  color: #a973fa; /* Color de texto del encabezado */
+}

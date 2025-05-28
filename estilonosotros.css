@@ -1,0 +1,48 @@
+
+body { 
+    padding: 2px; 
+    box-sizing: border-box;
+    color: #e8d9ff;
+   font-family: "Century Gothic", sans-serif;
+}
+
+#encabezado {
+    background-color: #FFFFFF;
+    text-align: center;
+    font-size: 35px;
+    color: #a973fa;
+    height: auto;
+}
+
+.navbar {
+    margin: 0px;  
+    padding: 10px; 
+    text-align: left;
+    font-size: 18px;
+    list-style-type: none; 
+    height: auto;
+    background-color: #9772cf;
+}
+
+#columna_principal {
+    float: left;
+    width: 70%;
+    height: 700px;
+    background-color: #9772cf;
+}
+
+#columna_publicidad {
+    float: left;
+    width: 30%;
+    height: 700px;
+    background-color: #9772cf;
+}
+
+#pie {
+    clear: both;
+    display: flex;
+    background-color: #9772cf; 
+    height: 80px;
+    text-align: center;
+    color: white;
+}
